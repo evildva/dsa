@@ -19,7 +19,7 @@ public:
 	array(int size)
 	{
 
-		parray = (T*)malloc(size*sizeof(T));
+		parray = (T*)malloc(size*sizeof(T));//没测试容器类
 		if(parray == NULL)
 			throw std::bad_alloc();
 		Size = size;

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-namespace Sq
+namespace Sq //堆栈
 {
 
 template <typename T>

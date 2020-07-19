@@ -17,7 +17,7 @@ public:
 public:
 	node()
 	{
-		pvalue = new T[1];
+		pvalue = new T[1]; //好像这里有问题
 	}
 
 	~node()
